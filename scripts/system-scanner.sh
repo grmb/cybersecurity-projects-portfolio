@@ -1,5 +1,26 @@
 #!/bin/bash
 
+# ==============================================================================
+# LOCAL SYSTEM AUDIT DISCLAIMER & RESPONSIBLE USE POLICY
+# ==============================================================================
+# LOCAL SCANNER DISCLAIMER & RESPONSIBLE USE POLICY
+# This system information utility was developed as an educational coursework 
+# project. It is strictly non-destructive, read-only, and does not require 
+# root/administrative (sudo) privileges.
+#
+# INTENDED USE & PRIVACY NOTICE:
+# This tool is designed to collect and display local system metrics, including 
+# network identifiers (IP/MAC addresses) and resource utilization stats. 
+# Execute this tool only on devices you own or are explicitly authorized to audit. 
+# Handle the output securely, as it contains sensitive network configuration details.
+#
+# NO-WARRANTY & LIMITATION OF LIABILITY:
+# This script is provided "AS IS" without any warranties. While it does not 
+# modify any system files, the author assumes no 
+# liability for temporary performance spikes (e.g., high disk I/O during large 
+# file searches) or any security alerts triggered by network data collection.
+# ==============================================================================
+
 # Features
 # 1. Identification of public and private IP
 # 2. Identification of system's MAC address (sensitive portions masked)
